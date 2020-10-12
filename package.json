@@ -1,0 +1,25 @@
+{
+  "name": "loyalwallet",
+  "version": "1.0.0",
+  "description": "Loyalwallet rest implementation",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kingsbu/loyalwallet.git"
+  },
+  "author": "fintech-29",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kingsbu/loyalwallet/issues"
+  },
+  "homepage": "https://github.com/Kingsbu/loyalwallet#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "nodemon": "^2.0.4"
+  }
+}
