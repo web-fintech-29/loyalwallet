@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="loyalwallet_logo">
+                        <p><img src="./images/loyalwallet_logoSize.png" alt="loyal wallet logo" srcset=""> <span>loyal</span> wallet</p>
+        </div>
+        <div class="register page_title">Register</div>
+        <div class="login-input-area">
+            <input type="text" class="firstName" id="firstName" placeholder="First Name" >
+            <input type="text" class="lastName" id="lastName" placeholder="Last Name" >
+            <input type="email" class="email-address" id="email-address" placeholder="Email address" >
+            <input type="password" class="create-password" id="create-password" placeholder="Create password" >
+            <input type="password" class="password-confirm" id="password-confirm" placeholder="Confirm password" >
+        </div>
+
+        <div class="create_new_account" id="create_account">
+            <button class="create_new_acc" onclick="register()">CREATE NEW ACCOUNT</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
