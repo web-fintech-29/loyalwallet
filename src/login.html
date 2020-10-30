@@ -14,10 +14,10 @@
         <div class=" login page_title">Login</div>
         <div class="login-input-area">
             <input type="text" class="emailaddress" id="email-address" placeholder="Email address" size="4">
-            <input type="text" class="password" id="password" placeholder="Create password" size="4">
+            <input type="password" class="password" id="password" placeholder="password" size="4">
         </div>
         <div class="login_button">
-            <a href="./login.html"><button class="login_b">LOGIN</button></a>
+            <button class="login_b" onclick="logIn()">LOGIN</button>
         </div>
         <div class="forgotten-password">
             <a href="./register.html">Forgotten password?</a>
@@ -25,7 +25,9 @@
         <div class="register_button">
             <a href="./register.html"><button class="register_b">CREATE A NEW ACCOUNT</button></a>
         </div>
-    </div>    
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/app.js"></script>    
 </body>
 </html>
 
