@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    font-family: Comfortaa;
+    width: 375px;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loyalwallet_logo {
+    flex-direction: row;
+    height: 80px;
+    font-size: 40px;
+    letter-spacing: -0.015em;
+}
+
+.loyalwallet_logo img {
+    width: 48px;
+    height: 49px;
+}
+
+.loyalwallet_logo span {
+    color:#0F6E48;
+}
+
+
+
+.safeandfast {
+    padding-top: 20px;
+    height: 50px;
+    font-size:  36px;
+    letter-spacing: -0.015em;
+}
+
+.caption_safeandfast {
+    height: 40px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.three_dots {
+    padding-top: 3%;
+    padding-bottom: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.space {
+    width: 40px;
+}
+
+#circle {
+    width: 18px;
+    height: 18px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: black;
+    
+}
+
+.page_title {
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.login {
+    padding-right: 65%;
+}
+.register{
+    padding-right: 54%;
+}
+.login_button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.login_b {
+    width: 343px;
+    height: 52px;
+    font-family: Roboto;
+    font-weight: 900;
+    background: #0F6E48;
+    color: white;
+    border: 2px solid #0F6E48;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.register_b {
+    width: 280px;
+    height: 52px;
+    font-family: Roboto;
+    font-weight: 900;
+    background: black;
+    color: white;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.register_button{
+    padding-top: 30px;
+}
+
+
+
+.login-input-area {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    
+    padding-bottom: 10px;
+}
+
+.create_new_acc {
+    width: 280px;
+    height: 52px;
+    font-family: Roboto;
+    font-weight: 900;
+    background: #0F6E48;
+    color: white;
+    border: 2px solid #0F6E48;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.create_new_account{
+    padding-top: 30px;
+}
+
+input {
+    width: 100%;
+    padding-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 24px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
